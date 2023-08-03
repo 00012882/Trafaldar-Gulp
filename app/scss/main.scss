@@ -1,0 +1,26 @@
+@import "app/fonts";
+@import "app/app";
+@import "app/header";
+@import "app/home";
+@import "app/services";
+@import "app/about";
+@import "app/feedback";
+@import "app/news";
+@import "app/footer";
+
+.body{
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 10px;
+}
+
+h1, h2, h3, ul, li, a, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper{
+    padding: 25px 80px 25px 80px;
+}

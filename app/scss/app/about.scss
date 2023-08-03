@@ -1,0 +1,65 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .about__left{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+
+        h2{
+            width: 220px;
+            font-size: 1.4rem;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            &::after{
+                content: "";
+                width: 60px;
+                height: 1.2px;
+                background: black;
+            }
+        }
+
+        p{
+            width: 200px;
+            font-size: 0.6rem;
+            color: var(--c1);
+            line-height: 14px;
+        }
+
+        button{
+            cursor: pointer;
+            background: var(--c4);
+            color: var(--c3);
+            border: 1px solid var(--c3);
+            width: 100px;
+            height: 30px;
+            border-radius: 50px;
+            font-size: 0.6rem;
+            transition: all 0.2s ease-in-out;
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+
+            &:hover{
+                background: var(--c3);
+                color: var(--c4);
+            }
+        }
+    }
+}
+
+.about__svg{
+    fill: var(--c3);
+}
+
+.about__svg:hover{
+    fill: white;
+}

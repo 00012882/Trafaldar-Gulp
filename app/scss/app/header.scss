@@ -1,0 +1,25 @@
+.header__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav__menu{
+    .nav__list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+       .nav__item>a{
+        font-size: 0.5rem;
+        color: var(--c1);
+        transition: all 0.2s ease-in-out;
+
+        &:hover{
+            color: var(--c2);
+            transition: all 0.2s ease-in-out;
+        }
+       }
+    }
+}

@@ -1,0 +1,43 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .home__left{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+
+        h2{
+            width: 210px;
+            font-size: 1.4rem;
+        }
+
+        p{
+            width: 200px;
+            font-size: 0.6rem;
+            color: var(--c1);
+            line-height: 14px;
+        }
+
+        button{
+            cursor: pointer;
+            background: var(--c3);
+            color: var(--c4);
+            border: none;
+            width: 100px;
+            height: 30px;
+            border-radius: 50px;
+            font-size: 0.6rem;
+            transition: all 0.2s ease-in-out;
+
+            &:hover{
+                color: var(--c3);
+                background: var(--c4);
+                border: 1px solid var(--c3);
+                transition: all 0.2s ease-in-out;
+            }
+        }
+    }
+}
